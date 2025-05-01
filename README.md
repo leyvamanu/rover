@@ -8,7 +8,6 @@ Rover es una aplicación que simula el movimiento de un vehículo explorador (ro
 
 - PHP 8.2+
 - Laravel 12
-- SQLite (base de datos) (No se utiliza en este ejemplo)
 
 ## 📋 Características principales
 
@@ -23,7 +22,6 @@ Rover es una aplicación que simula el movimiento de un vehículo explorador (ro
 
 - PHP 8.2 o superior
 - Composer
-- SQLite
 
 ### Pasos de instalación
 
@@ -48,13 +46,13 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-7. Inicie el servidor de desarrollo:
+4. Inicie el servidor de desarrollo:
 
 ```shell script
 php artisan serve
 ```
 
-La aplicación estará disponible en `http://localhost:8000`.
+La aplicación estará disponible en `http://127.0.0.1:8000`.
 
 ## 🎮 Uso
 
@@ -115,7 +113,7 @@ Respuesta (JSON):
 
 ### Interfaz web
 
-1. Acceda a `http://localhost:8000` en su navegador
+1. Acceda a `http://127.0.0.1:8000` en su navegador
 2. Configure la posición inicial y dirección del rover
 3. Añada obstáculos si lo desea
 4. Ingrese los comandos en el campo de texto o use los botones interactivos
